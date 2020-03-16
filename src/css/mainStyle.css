@@ -1,0 +1,159 @@
+body,.form { margin: 0; height: 100%; width:100%; color:#FFF;}
+.form{
+        /* The image used */
+        /* background-image: url(/src/images/login-bg.png); */
+        /* Full height */
+        height: 840px; 
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        padding-top: 10px;
+}
+.formGroup{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:560px;
+    margin-top: 10px;
+}
+.formGroup h1{ padding-top: 20px;}
+/* start header style */
+.header{margin-top: 20px;}
+.header .myHeader .header3{
+    color:#9F9D9D;
+    text-transform: uppercase;
+}
+.header .spanandline{margin-bottom: 0px;}
+.header .myHeader .line{
+     float: left;
+     background-color: #9F9D9D;
+     width: 55%;
+    text-align: left;
+    margin-right: 10px;
+    margin-top: 19px;
+}
+.header .myHeader .headerSpan{
+    color:#9F9D9D;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.header input{
+    background: none;
+    border:1px solid #747474;
+    border-radius: 0px;
+    outline:none;
+}
+.header input:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    background: none;
+    border:1px solid #ff66b3;
+    outline-width: 0;
+}
+.header button{
+    width: 95px;
+    background: none;
+    border: 1px solid #747474;
+    height: 37px;
+    text-transform: uppercase;
+    color:#747474;
+    padding-right: 7px;
+}
+.header button:hover{background-color:#DA1C5C ;color:#FFF;border:none;}
+.header .forgotPass{margin-top: 5px;float:right;}
+.header a{text-decoration: none;color: #747474;}
+/* end header style  */
+/* start formGroup style */
+.account{
+    background-color: #1b1b1b91;
+    padding: 0px;
+    height: 560px;
+}
+.account .line{
+    background-color: #DA1C5C;
+    width: 6%;
+    height: 2px;
+    float: left;
+    margin: 0px;
+}
+.account h1{
+    color:#7E7E7A;
+    font-weight: normal;
+    font-size: 36px;
+}
+.account p{color:#DA1C5C;font-size: 23px;}
+
+/* end formGroup style */
+
+/* start radio style */
+.Radio{margin-top: 45px;}
+.Radio .accountLabel{margin-right: 40px;}
+.Radio label::before {border: 1px solid #DA1C5C;}
+.custom-control-label::before {background-color: #1b1b1b91;}
+.custom-radio .custom-control-input:active ~ .custom-control-label::before {
+    background-color: #DA1C5C; /* red */
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    outline-width: 0;
+}
+.custom-radio .custom-control-input:checked~.custom-control-label::before,
+.custom-radio .custom-control-input:checked~.custom-control-label::after {
+        background-color: #DA1C5C; 
+        border-radius: 50%;
+}
+.Radio label{color:#7E7E7A;}
+.account input{
+    background: none;
+    border:1px solid #747474;
+    border-radius: 0px;
+    outline:none;
+    width: 230px;
+    float: left;
+    margin-top: 10px;
+}
+.account input:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    background: none;
+    border:1px solid #ff66b3;
+    outline-width: 0;
+}
+.custom-class{background-color: #DA1C5C;color:gray}
+.account .lead{
+    font-size: 14px;
+    max-width: 93%;
+    margin: 15px 0px;
+    color:#7E7E7A;
+}
+.account button{
+    width: 470px;
+    background: none;
+    border: 1px solid #747474;
+    height: 37px;
+    text-transform: uppercase;
+    color: #747474;
+    font-size: 16px;
+}
+.account button:hover{
+    background-color:#DA1C5C ;
+    color:#FFF;
+    border:none;
+}
+.footer span{margin-right: 10px;}
+.footer a{text-decoration: none;color:#7E7E7A;}
+.footer a:hover{color:#ff66b3;}
+
+ 
