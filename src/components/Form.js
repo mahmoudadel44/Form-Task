@@ -214,6 +214,7 @@ const customStyles = {
     height:'48px',
     background: "none",
     paddingBottom:'30px',
+      border: '1px solid #747474',
     '&:hover': {
       border: '1px solid #747474',
       cursor: 'pointer',
